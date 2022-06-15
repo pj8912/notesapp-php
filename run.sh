@@ -9,14 +9,18 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
 	
 	if package_exists sqlite; then
        	
-		echo "Please install sqlite"
-	
+		echo "sqlite not installed. Install sqlite"
+		sudo apt install sqlite3
+
+
 	else echo "sqlite already installed"
 
 	fi
 
 	if package_exists php; then 
-		echo "install PHP"
+		echo "PHP not installed. Installing PHP....."
+		sudo apt install php
+
 	else echo "php already installed!"
 	
 	fi
