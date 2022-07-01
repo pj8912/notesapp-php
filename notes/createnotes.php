@@ -51,19 +51,8 @@ if (isset($_REQUEST['bid'])) {
             </div>
         </div>
         <hr>
-        <div class="navbar">
-
-            <span class="h5">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
-                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
-                    <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
-                </svg>
-                Notes</span>
-            <!-- data-bs-toggle="modal" data-bs-target="#staticBackdrop" -->
-            <!-- href="note_name/create_name.php?bid -->
-            <div class="nav justify-content-end">
-
-                <button type="button" class="btn btn-secondary btn-default rounded-5 btn-sm" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <div class="navbar">         
+               <button type="button" class="btn btn-secondary btn-default rounded-5 btn-sm" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <svg width=" 1em" height="1em" viewBox="0 0 16 16" class="bi bi-plus-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
                     </svg>
@@ -97,9 +86,8 @@ if (isset($_REQUEST['bid'])) {
                         </div>
                     </div>
                 </div>
-
-                <!-- line -->
-                <div class="vl m-1"></div>
+         
+            <div class="nav justify-content-end">
 
                 <button class="btn btn-light  btn-sm m-1 rounded-5" data-bs-toggle="tooltip" data-bs-placement="left" title="Record Video">
 
@@ -131,7 +119,7 @@ if (isset($_REQUEST['bid'])) {
                             </div>
                             <div class="modal-body">
                                 <div class="m-auto">
-                                    <form action="note_name/create_name.php" method="post">
+                                    <form action="upload_audio.php" method="post" enctype="multipart/form-data">
                                         <div class="mb-2">
                                             <input type="text" name="note-name" class="form-control" placeholder="Note Name">
                                         </div>

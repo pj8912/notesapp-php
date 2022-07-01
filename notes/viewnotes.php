@@ -38,10 +38,7 @@ include_once '../includes/navbar.php';
 				</div>	
 
 		    	    </div>';
-                echo ' <hr>
-                        <h3 class="text-center">Notes</h3>
-                        </hr>
-                        ';
+                echo ' <hr>';
             }
             $sql = "SELECT * FROM notes WHERE book_id = '$bid' ";
             $response =  $db->query($sql);
