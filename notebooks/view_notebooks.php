@@ -6,12 +6,26 @@ include_once '../includes/navbar.php';
 ?>
 
 <?php main_header('View Notebook'); ?>
+<style>
+  #box{
+    margin:10px;
+    width:100%;
+    word-wrap: break-word;
+
+  }
+  .wrapper{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+  }
+</style>
 <?php main_navbar(); ?>
 <div class="container">
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-    <div class="mt-2 row ">
+    <div class="mt-4 wrapper" >
     
         <?php
 
@@ -23,7 +37,7 @@ include_once '../includes/navbar.php';
         // $num = $response->ro`
         while ($row  = $response->fetchArray(SQLITE3_ASSOC)) {
 
-		echo '<div class=" m-2 col-md-4 card card-body " style="">';
+		echo '<div class="card card-body "  id="box">';
 
 		echo '<ul class="nav">';
 	    echo '<a href="../notes/createnotes.php?bid='.$row['nb_id'].'" class="text-center h4 nav-item" style="text-decoration:none">
@@ -55,7 +69,7 @@ echo '<div class="dropdown ml-5 nav-item ">
 </svg>
 	Create&Edit
 </a></li>
-    
+
   </ul>
 </div>';
 	
