@@ -11,7 +11,7 @@ include_once '../includes/navbar.php';
     margin:10px;
     width:100%;
     word-wrap: break-word;
-
+    height:fit-content;
   }
   .wrapper{
     display: grid;
