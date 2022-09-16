@@ -10,8 +10,10 @@ Sqlite is a sql database for on disk storage so no external server needed for st
 
 Functionalities:
 <ul>
-<li>- Create Notebook </li>
-<li>- Update/Delete Notebook. Deleting Noteboooks deletes all the notes in the notebook </li>
+<li> Create Notebook </li>
+<li> Update/Delete Notebook. Deleting Noteboooks deletes all the notes in the notebook </li>
 <li> Create/Update/Delete Notes </li>
 </ul>
+
+CK editor is used for creating notes.
 
