@@ -20,19 +20,19 @@ CK editor is used for creating notes.
 
 # Screenshots
   
+ ## homepage
  
  ![Screenshot from 2022-11-01 16-32-12](https://user-images.githubusercontent.com/59218902/199220835-0f26ba55-019a-426d-ac12-4dfa73b43e89.png)
 
- ## homepage
   
  
   
   ## createnotebook 
     
-    ![Screenshot from 2022-11-01 16-36-24](https://user-images.githubusercontent.com/59218902/199220530-242acb57-0c66-4a8c-bf00-1e5274fa94bd.png)
+   ![Screenshot from 2022-11-01 16-36-24](https://user-images.githubusercontent.com/59218902/199220530-242acb57-0c66-4a8c-bf00-1e5274fa94bd.png)
 
   ## view notebooks
-    ![Screenshot from 2022-11-01 16-32-31](https://user-images.githubusercontent.com/59218902/199219856-1af07535-4874-4380-bfef-5d6a1880e47e.png)
+   ![Screenshot from 2022-11-01 16-32-31](https://user-images.githubusercontent.com/59218902/199219856-1af07535-4874-4380-bfef-5d6a1880e47e.png)
 
   ## create notes
     ![Screenshot from 2022-11-01 16-33-09](https://user-images.githubusercontent.com/59218902/199219973-a082103b-e5dd-4f06-ab40-8b6721e6c35b.png)
