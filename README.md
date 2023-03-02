@@ -3,8 +3,24 @@ Notes application built using php and uses sqlite for storage. Added media suppo
 
 install php and sqlite, enable sqlite in php
 
-start application: 
-<code>php -S localhost:4000</code>
+## Initialize Database
+
+- This script should be executed first
+
+- The sqlite database and necessary tables creation is handled by `create_database.php`
+
+```
+php `create_datbase.php`
+
+```
+
+
+## Start
+Start application
+
+``` 
+php -S localhost:4000
+```
 
 Sqlite is a sql database for on disk storage so no external server needed for storage.
 
@@ -16,6 +32,8 @@ Functionalities:
 </ul>
 
 CK editor is used for creating notes.
+
+
 
 
 # Screenshots
