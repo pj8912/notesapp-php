@@ -29,11 +29,18 @@ include_once '../includes/navbar.php';
     
         <?php
 
-        require '../database/sql.php';
+require_once('../database/sql.php');
 
-        $db = new database('../notesapp.db');
-        $sql = "SELECT * FROM notebooks";
-        $response =  $db->query($sql);
+$db = new database('../notesapp.db');
+if (!$db) {
+    die('Error opening database');
+}
+
+$sql = "SELECT * FROM notebooks";
+$response = $db->query($sql);
+if (!$response) {
+  die('Error executing query');
+}
         // $num = $response->ro`
         while ($row  = $response->fetchArray(SQLITE3_ASSOC)) {
 
