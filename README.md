@@ -1,6 +1,8 @@
 # notesapp-php
 (updating)
-Notes application built using php and uses sqlite for storage. Added media support for taking pictures, video recording and audio recording. 
+
+
+- Notes application built using php and uses sqlite for storage. Added media support for taking pictures, video recording and audio recording. 
 
 install php and sqlite, enable sqlite in php
 
@@ -11,7 +13,7 @@ install php and sqlite, enable sqlite in php
 - The sqlite database and necessary tables creation is handled by `create_database.php`
 
 ```
-php `create_datbase.php`
+$ php create_datbase.php
 
 ```
 
@@ -20,7 +22,7 @@ php `create_datbase.php`
 Start application
 
 ``` 
-php -S localhost:4000
+$ php -S localhost:4000
 ```
 
 Sqlite is a sql database for on disk storage so no external server needed for storage.
