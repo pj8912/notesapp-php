@@ -15,9 +15,7 @@ echo '
         </li>
        </ul>
        <ul class="navbar-nav justify-content-end mb-2 mb-lg-0">
-       <li class="nav-item m-1">
-          <a class="nav-link btn btn-light text-dark btn-sm rounded-5" style="font-size:14px;"   href="http://localhost:4000/notebooks/view_notebooks.php">View NoteBooks</a>
-        </li>
+     
         <li class="nav-item m-1">
         <a class="nav-link btn btn-light text-dark  btn-sm rounded-5"  style="font-size:14px;"  href="http://localhost:4000/notebooks/create.php">Create NoteBook</a>
       </li>

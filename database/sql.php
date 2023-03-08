@@ -11,3 +11,5 @@ if (!class_exists('database')) {
 		}
 	}
 }
+
+?>
