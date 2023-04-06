@@ -2,7 +2,7 @@
 
 - Notes application built using php and uses sqlite for storage. Added media support for taking pictures, video recording and audio recording. 
 
-- install php and sqlite, enable sqlite in php
+- install `php` and `sqlite`, enable sqlite in php
 
 ## Initialize Database
 
@@ -63,7 +63,3 @@ CK editor is used for creating notes.
   
   ![Screenshot from 2022-11-01 16-32-48](https://user-images.githubusercontent.com/59218902/199220224-2fb80514-e6cb-49c1-bde4-86f35816f394.png)
 
-
-
-
-    
